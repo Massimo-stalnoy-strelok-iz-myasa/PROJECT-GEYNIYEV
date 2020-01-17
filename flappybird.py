@@ -1,7 +1,6 @@
 from pygame.locals import *
 import pygame
 from random import randint
-import vlc
 import sys
 
 
@@ -27,8 +26,6 @@ class FlappyBird:
         self.sprite = 0
         self.counter = 0
         self.height = randint(-110, 300)
-        self.p = vlc.MediaPlayer('kakadusha.mp3')
-        self.p.play()
 
     def updateWalls(self):
         self.X_axis -= 2 # стены... они двигаются
@@ -61,15 +58,9 @@ class FlappyBird:
                                self.dWall.get_height())
         # Смэрть
         if uRect.colliderect(self.bird) or dRect.colliderect(self.bird):
-            self.p.stop()
-            self.p = vlc.MediaPlayer('DblA.mp3')
-            self.p.play()
             self.dead = True
 
         if not 0 < self.bird[1] < 720: # если улетела - возраждаем
-            self.p.stop()
-            self.p = vlc.MediaPlayer('DblA.mp3')
-            self.p.play()
             self.bird[1] = 50
             self.Y_axis = 50
             self.dead = False
