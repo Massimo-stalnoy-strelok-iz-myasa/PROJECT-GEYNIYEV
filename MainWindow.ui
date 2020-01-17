@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Tetris_start">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>141</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tetris</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Ваша библиотека:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Flappy_start">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>90</y>
+      <width>141</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Flappy Osipenko</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ac">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>90</y>
+      <width>141</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Coming soon...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tetris_statistic">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>310</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Statistic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="None_statistic">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>310</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Statistic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dc">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>310</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Statistic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_login">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>211</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Войти</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_statistic">
+    <property name="geometry">
+     <rect>
+      <x>632</x>
+      <y>20</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить статистику</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load_statistic">
+    <property name="geometry">
+     <rect>
+      <x>632</x>
+      <y>50</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить статистику</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>854</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
